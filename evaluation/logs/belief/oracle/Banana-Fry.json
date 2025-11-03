@@ -1,0 +1,5 @@
+{
+    "parallel": "[3]",
+    "physical_constraints": "stove: [3, 4, 5, 6, 7, 8]\n",
+    "dependency": "0->1, 3->4, 1->5, 2->5, 4->5, 5->6, 6->7, 7->8"
+}

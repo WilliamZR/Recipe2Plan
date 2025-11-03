@@ -1,0 +1,5 @@
+{
+    "parallel": "[0, 2, 7]",
+    "physical_constraints": "oven: [0, 7]\nmicrowave: [2]\n",
+    "dependency": "1->2, 2->3, 3->5, 4->5, 5->6, 0->7, 6->7"
+}
